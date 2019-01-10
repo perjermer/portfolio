@@ -6,6 +6,10 @@ body {
   font-family: 'Ovo', serif;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -66,6 +70,51 @@ li a {
 
 /* title headings */
 .title {
-  padding: 1em;
-  background-color: #DDD;
+  padding: 2em;
+  background-color: #EEE;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.title p {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+/* project card */
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+/* me img */
+#me {
+  margin: 1em;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.text {
+  margin: 1em 30%;
+  text-align: justify;
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ovo');
 
 body {
-  margin-top: 2em;
+  margin: 0;
   padding: 0;
   font-family: 'Ovo', serif;
 }
@@ -17,13 +17,13 @@ ul {
 }
 
 li a {
-  font-size: 2em;
+  font-size: 2.3em;
   text-decoration: none;
-  color: black;
+  color: #777;
 }
 
 .active {
-  color: #ff4242;
+  color: #000;
 }
 
 .name {
@@ -37,9 +37,10 @@ li a {
 
 .nav-item {
   float: right;
-  margin-right: 2em;
+  margin-right: 0.7em;
 }
 
+/* Hover for underline */
 .hover {
   display: inline-block;
   position: relative;
@@ -53,7 +54,7 @@ li a {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ff4242;
+  background-color: #DDD;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -61,4 +62,10 @@ li a {
 .hover:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+/* title headings */
+.title {
+  padding: 1em;
+  background-color: #DDD;
 }

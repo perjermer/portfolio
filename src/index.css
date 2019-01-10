@@ -1,14 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Ovo');
+
 body {
-  margin: 0;
+  margin-top: 2em;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Ovo', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+li a {
+  font-size: 2em;
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: #ff4242;
+}
+
+.name {
+  float: left;
+}
+
+.nav {
+  padding: 0em 0.5em 0.5em 1em;
+  margin: 2em;
+}
+
+.nav-item {
+  float: right;
+  margin-right: 2em;
+}
+
+.hover {
+  display: inline-block;
+  position: relative;
+}
+
+.hover::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff4242;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

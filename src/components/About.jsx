@@ -17,6 +17,9 @@ const About = () => {
         Since then, I've been honing my skills whilst working on my degree.
         <br />
         <br />
+        I work with backend technologies such as Node, C# ASP.NET/.NET Core/
+        <br />
+        <br />
         I am currently studying Computer Science & Artificial Intelligence & learning Japanese on the side
         with the <a href="http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/">AJATT</a> method.
       </div>

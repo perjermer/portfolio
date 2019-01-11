@@ -1,13 +1,21 @@
 import React from 'react'
 
-const Project = () => {
+const Project = (props) => {
   return (
     <div className="card grow">
-      <img src="https://picsum.photos/300/300" alt="" />
-      <div className="container">
-        <h2>Twitter Bot</h2>
-        <p>Created a bot to learn the twitter API Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odit facilis iure, tenetur quae vero doloremque incidunt quia repellat fugit officiis aliquid quisquam consectetur ex maiores asperiores enim dolorum sequi!</p>
-      </div>
+      <a href={props.link}>
+        <img className="project-img" src={props.img} alt="" />
+        <div className="container">
+          <h2>{props.title}</h2>
+          <p>{props.desc}</p>
+          <ul>
+            {props.tech.map(item => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+          <br />
+        </div>
+      </a>
     </div>
   );
 }

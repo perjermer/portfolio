@@ -8,11 +8,11 @@ const Project = (props) => {
         <div className="container">
           <h2>{props.title}</h2>
           <p>{props.desc}</p>
-          <ul>
+          <div className="tech-containter">
             {props.tech.map(item => (
-              <li key={item}>{item}</li>
+              <div className="tech clearfix" key={item}> {item} </div>
             ))}
-          </ul>
+          </div>
           <br />
         </div>
       </a>

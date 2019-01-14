@@ -5,7 +5,7 @@ import Project from "./reusable/Project";
 import twitterimg from "../public/twitterimg.png";
 import ankiimg from "../public/ankiimg.png";
 import spotifyimg from "../public/spotifyimg.png";
-import me from "../public/me2.jpg"; ``
+import me from "../public/me2.jpg";
 
 const Portfolio = () => {
   return (

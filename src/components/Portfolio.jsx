@@ -5,6 +5,7 @@ import Project from "./reusable/Project";
 import twitterimg from "../public/twitterimg.png";
 import ankiimg from "../public/ankiimg.png";
 import spotifyimg from "../public/spotifyimg.png";
+import me from "../public/me2.jpg"; ``
 
 const Portfolio = () => {
   return (
@@ -31,6 +32,13 @@ const Portfolio = () => {
           title="Multi-user song queue"
           desc="A web app for several users to queue up songs; made for a business development team."
           tech={["Node", "React.js", "Next.js", "MongoDB", "Spotify API", "Amazon Alexa API", "Tensorflow"]}
+        />
+        <Project
+          link="#"
+          img={me}
+          title="My portfolio website"
+          desc="Built using react.js to showcase my work."
+          tech={["React.js"]}
         />
       </div>
     </div>

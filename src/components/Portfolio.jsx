@@ -40,6 +40,13 @@ const Portfolio = () => {
           desc="Built using react.js to showcase my work."
           tech={["React.js"]}
         />
+        <Project
+          link="https://perjermer.github.io/robofriends/"
+          img={'https://robohash.org/1?300x300'}
+          title="Robofriends"
+          desc="Developed as part of a Udemy course for the fundamentals of React.js"
+          tech={["React.js", "API"]}
+        />
       </div>
     </div>
   );

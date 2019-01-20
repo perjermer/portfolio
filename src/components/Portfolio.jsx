@@ -44,8 +44,8 @@ const Portfolio = () => {
           link="https://perjermer.github.io/robofriends/"
           img={'https://robohash.org/1?300x300'}
           title="Robofriends"
-          desc="Developed as part of a Udemy course for the fundamentals of React.js"
-          tech={["React.js", "API"]}
+          desc="Developed as part of a Udemy course for the fundamentals of React.js & Redux"
+          tech={["React.js", "Redux", "API"]}
         />
       </div>
     </div>

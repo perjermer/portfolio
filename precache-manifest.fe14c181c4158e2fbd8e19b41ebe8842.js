@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/static/media/spotifyimg.cb65e80c.png"
   },
   {
-    "revision": "4684e612674aca82498176e40c4fd406",
-    "url": "/static/media/me2.4684e612.jpg"
+    "revision": "6085c23bb07d55ee340490135ac4404d",
+    "url": "/static/media/me2.6085c23b.jpg"
   },
   {
     "revision": "ac99dcddbddaeeb92229c91a6a831139",
@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "a67d6136455c4f7af8dc",
-    "url": "/static/js/main.a67d6136.chunk.js"
+    "revision": "3a75a3042149718908a2",
+    "url": "/static/js/main.3a75a304.chunk.js"
   },
   {
     "revision": "d9a66abea2e1a4467340",
     "url": "/static/js/1.d9a66abe.chunk.js"
   },
   {
-    "revision": "a67d6136455c4f7af8dc",
-    "url": "/static/css/main.44f052d2.chunk.css"
+    "revision": "3a75a3042149718908a2",
+    "url": "/static/css/main.89710ad4.chunk.css"
   },
   {
-    "revision": "2b7ca00ebf3138caa6090deccc3d507d",
+    "revision": "3b71c371a0ee2e270829fc47bf5e5cee",
     "url": "/index.html"
   }
 ];

@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <div>
       <Title title="Portfolio" desc="A list of all my learning / completed / ongoing projects." />
-      <div className="project-cards">
+      <div className="project-cards-grid">
         <Project
           link="https://twitter.com/coffeebeepbot?lang=en"
           img={twitterimg}

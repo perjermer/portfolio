@@ -7,6 +7,10 @@ body {
   padding-bottom: 2em;
 }
 
+.App {
+  text-align: center;
+}
+
 .body-content {
   margin: 2em;
 }
@@ -94,6 +98,14 @@ li a {
 }
 
 /* project card */
+.project-cards-grid {
+  justify-content: center;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-auto-rows: auto;
+}
+
 .project-cards {
   margin: 2em 4em 0 4em;
   display: flex;

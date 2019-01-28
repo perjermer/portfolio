@@ -23,16 +23,16 @@ class Portfolio extends Component {
           <Project
             link="#"
             img={ankiimg}
-            title="Resource sharing"
-            desc="A website for sharing Anki flashcard decks for language learning."
-            tech={["Node", "React.js", "Next.js", "MongoDB", "AmazonS3"]}
+            title="Deck request"
+            desc="A website for requesting Anki flashcard decks for language learning. Users can register, login and request decks to be made"
+            tech={["Node", "React.js", "API", "MongoDB", "Mediafire", "Responsive", "Authorization"]}
           />
           <Project
             link="#"
             img={spotifyimg}
             title="Multi-user song queue"
             desc="A web app for several users to queue up songs; made for a business development team."
-            tech={["Node", "React.js", "Next.js", "MongoDB", "Spotify API", "Amazon Alexa API", "Tensorflow"]}
+            tech={["Node", "React.js", "Next.js", "MongoDB", "Spotify API", "Amazon Alexa API", "Tensorflow", "Test Driven Development"]}
           />
           <Project
             link="#"
